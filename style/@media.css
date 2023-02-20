@@ -1,0 +1,14 @@
+@media (max-width:1300px) and (min-width:500px) {
+    #prices {
+        display: none;
+    }
+    #vices {
+        display: none;
+    }
+}
+
+@media (max-width:1000px) and (min-width:350px) {
+    #vices {
+        display: none;
+    }
+}
