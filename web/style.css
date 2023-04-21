@@ -49,8 +49,9 @@ li{
 .tel a:hover{
     background-image: linear-gradient(green,blue);
    color: transparent;
-    background-clip: text;
+   
     -webkit-background-clip: text;
+      background-clip: text;
 
     
 }
