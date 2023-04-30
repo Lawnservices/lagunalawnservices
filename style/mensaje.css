@@ -10,9 +10,10 @@
    z-index: 1;
     
 }
-.mensaje p{
+.mensaje #men{
   color: #fff;
   text-align: center;
   font-size: 1.4rem;
   
 }
+ 
