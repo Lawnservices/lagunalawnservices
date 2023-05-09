@@ -36,10 +36,21 @@ li a:hover{
 }
  
 .titulo{
+    overflow: hidden;
     text-align: center;
+    width: 100%;
+    height: 260px;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80%;
+    cursor: pointer;
 }
 .titulo h2{
     color: #036b;
+    font-size: 1.8rem;
 }
  
 .fotos {

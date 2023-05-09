@@ -24,6 +24,17 @@ document.addEventListener('scroll', () =>{
     }
 });
 
+function myFunction(){
+  document.getElementById('titulo').style.color = '#fff';
+  document.getElementById('titulo').style.fontSize = '2rem';
+  document.getElementById('mase').style.backgroundImage = 'url("https://lagunalawnservice.com/img/galeria9.jpg")';
+}
+
+function Photo(){
+  document.getElementById('titulo').style.color = '#299684';
+  document.getElementById('titulo').style.fontSize = '2rem';
+  document.getElementById('mase').style.backgroundImage = 'url("https://lagunalawnservice.com/img/galeria13.jpg")';
+}
  
 
  
