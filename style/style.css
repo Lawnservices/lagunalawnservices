@@ -47,6 +47,7 @@ li a:hover{
     background-size: cover;
     background-position: 80%;
     cursor: pointer;
+    background-color: rgb(73, 234, 153);
 }
 .titulo h2{
     color: #036b;
