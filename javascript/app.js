@@ -11,8 +11,8 @@ document.addEventListener('scroll', () =>{
     
     saje.style.backgroundColor = '#226654';
     saje.style.borderBottom = '4px solid #036';
-    men.style.color = 'blue'; 
-    foto1.style.border = '4px solid #036';
+    men.style.color = 'green'; 
+    
     
        } else{
     saje.style.backgroundColor = '#036';
