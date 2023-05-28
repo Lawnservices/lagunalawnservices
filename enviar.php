@@ -1,8 +1,11 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-  $nombre = $_POST['nombre'];
-  $email = $_POST['email'];
-  $mensaje = $_POST['mensaje'];
+  $data = json_decode(file_get_contents('php://input'), true);
+
+  $nombre = $data['nombre'];
+  $email = $data['email'];
+  $mensaje = $data['mensaje'];
+
   // Aquí puedes realizar la validación de los campos recibidos
 
   // Configuración del correo electrónico
@@ -15,8 +18,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
   // Envío del correo electrónico
   if (mail($to, $subject, $message, $headers)) {
-    echo 'Mensaje enviado correctamente.';
+    http_response_code(200);
   } else {
-    echo 'Error al enviar el mensaje.';
+    http_response_code(500);
   }
 }
