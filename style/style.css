@@ -17,7 +17,7 @@ html{
     overflow: hidden;
     position: relative;
     list-style-type: none;
-    background-color: #299684;
+    background-color: #333;
 }
 li{
     float: left;
