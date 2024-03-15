@@ -10,6 +10,7 @@ html{
     position: sticky;
     top: 0;
     z-index: 10;
+    
 }
 .header ul{
     padding: 0;
@@ -60,11 +61,12 @@ li a:hover::before{
     background-size: cover;
     background-position: 80%;
     cursor: pointer;
+    background-color: #04aa6b;
     
 }
 .titulo h2{
     color: #036b;
-    font-size: 1.8rem;
+    font-size: 3rem;
 }
  
 .fotos {
@@ -90,6 +92,8 @@ li a:hover::before{
    
     border-radius: 0.4rem;
 }
+ 
+ 
 .orario p{
     color: #003349;
     font-size: 18px;
