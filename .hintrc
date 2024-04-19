@@ -10,6 +10,7 @@
           "iframe[allow]"
         ]
       }
-    ]
+    ],
+    "disown-opener": "off"
   }
 }

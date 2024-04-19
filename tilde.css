@@ -1,0 +1,22 @@
+.mensajes{
+  background-color:#2e594b;
+  width:0px;
+  height:0px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 146px;
+  border-radius: .2rem;
+  margin-left: 1px;
+}
+.mensajes a{
+  color: #fff;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: block;
+  text-align:justify;
+  font-size: 20px;
+}
+.mensajes a:hover{
+  background-color: #f6f6f6;
+  color: #003349;
+}
