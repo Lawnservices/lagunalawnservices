@@ -1,0 +1,36 @@
+.list{
+    background-image: url(https://lagunalawnservice.com/img/galeria11.jpg); 
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .name{
+     
+    overflow: hidden;
+    color: #407feb;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 16px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    @media (min-width:300px) and (max-width:760px){
+    
+.list .name{
+ 
+    color: aliceblue;
+    width: 100%;
+    }
+    .list .name h2{
+    font-family: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    }
+    .list .name p{
+    display: none;
+    }
+    }
