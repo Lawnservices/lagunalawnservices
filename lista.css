@@ -18,6 +18,16 @@
     margin-left: auto;
     margin-right: auto;
     }
+    #llamar{
+    animation-name:musa;
+    animation-duration: 4s;
+    font-size: 30px; 
+    }
+    @keyframes musa{
+    from{color:blue;}
+    to{color:rgb(245, 230, 11);}
+    }
+    
     @media (min-width:300px) and (max-width:760px){
     
 .list .name{
