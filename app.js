@@ -1,35 +1,37 @@
 document.addEventListener("DOMContentLoaded", () => {
  let day;   
+ let elem = document.getElementById('arbol');
  switch (new Date().getDay()){
     case 0:
-        day = 'Saturday';
-        document.getElementById('arbol').style.color = 'rgba(13, 82, 13, 1)';
+        day = 'Sunday';
+        elem.style.color = 'rgba(13, 82, 13, 1)';
         break;
         case 1:
             day = 'Monday';
-            document.getElementById('arbol').style.color = 'rgba(136, 17, 17, 1)';
+            elem.style.color = 'rgba(136, 17, 17, 1)';
             break;
         case 2:
-            day = 'Tusday';
-            document.getElementById('arbol').style.color = 'rgba(121, 14, 153, 1)';
+            day = 'Tuesday';
+            elem.style.color = 'rgba(121, 14, 153, 1)';
             break;
         case 3:
-            day = 'Wendsday';
-            document.getElementById('arbol').style.color = '#000';
+            day = 'Wednesday';
+            elem.style.color = '#000';
             break;
         case 4:
-            day = 'Thurdays';
-            document.getElementById('arbol').style.color = 'blue';
+            day = 'Thursday';
+            elem.style.color = 'blue';
             break;
         case 5:
-            day = 'friday';
-            document.getElementById('arbol').style.color = 'green';
+            day = 'Friday';
+            elem.style.color = 'green';
             break;
         case 6:
-            day = 'saturday';
-            document.getElementById('arbol').style.color = 'rgb(0, 77, 128)';
+            day = 'Saturday';
+            elem.style.color = 'rgb(0, 77, 128)';
             break;            
 
  }
 
+document.getElementById('arbol').textContent = `Call us, we have a special to replace the mulch at a super price, today is ${day}`;
 });
