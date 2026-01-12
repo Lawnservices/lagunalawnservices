@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
       link.addEventListener('mouseenter', () => {
        link.style.border = '0.1rem solid blue';
        document.getElementById('llamar').style.color = '#fff';
-       document.getElementById('navidad').textContent = 'Merry Christmas';
+       document.getElementById('navidad').textContent = 'Leaf Removal';
       });
 
       link.addEventListener('mouseleave', () => {
