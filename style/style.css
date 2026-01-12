@@ -27,19 +27,18 @@ html{
 }
  
 .fotos {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 90%;
+    margin: 24px auto; 
     background-color: #fff;
     margin-top: 60px;
-    border-radius: 0.4rem;
+ 
     text-align: center;
 }
 .fotos img{
-    border-radius: 0.4rem;
+    border-radius: 0.2rem;
     width: 800px;
     height: 600px;
-     margin-top: 16px;
+    padding: 6px; 
 }
 .fotos .foto {
     width: 400px;
