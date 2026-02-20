@@ -5,7 +5,11 @@ body {
 html{
     scroll-behavior: smooth;
 }
- 
+main{
+max-width: 1800px;
+margin: 24px auto;
+
+} 
 .titulo{
     overflow: hidden;
     text-align: center;
@@ -21,33 +25,29 @@ html{
     background-color: #04aa6b;
     
 }
-.titulo h2{
+.best{
     color: #036b;
-    font-size: 3rem;
+    font-size: 24px;
+    text-align: center;
 }
  
 .fotos {
-    max-width: 90%;
+    max-width:1200px;
     margin: 24px auto; 
     background-color: #fff;
     margin-top: 60px;
- 
     text-align: center;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 .fotos img{
     border-radius: 0.2rem;
-    width: 800px;
-    height: 600px;
-    padding: 6px; 
+     width: 100%;
+     height: 260px;
+     object-fit: cover;
 }
-.fotos .foto {
-    width: 400px;
-    height: 360px;
-    margin-left: auto;
-    margin-right: auto;
-   
-    border-radius: 0.4rem;
-}
+ 
  
  
 .orario p{

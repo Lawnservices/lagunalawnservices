@@ -28,9 +28,7 @@
     color: #407feb;
     text-align: center;
     }
-    .works em{
-     
-    }
+   
     @keyframes musa{
     from{color:blue;}
     to{color:rgb(245, 230, 11);}
