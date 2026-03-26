@@ -16,15 +16,20 @@ margin: 24px auto;
     width: 100%;
     height: 160px;
     position: relative;
-    padding: 0;
+    padding:0;
     margin: 0;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 80%;
+    background-position: 60%;
     cursor: pointer;
-    background-color: #04aa6b;
+    background-image: url('https://mlaguna.pythonanywhere.com/static/uploads/cdf4d49c-f960-4716-96c5-e99bc31ef920.jpg');
     
 }
+#titulo{
+font-size: 42px;
+}
+ 
+ 
 .best{
     color: #036b;
     font-size: 24px;

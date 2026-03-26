@@ -32,7 +32,7 @@ li{
 }
 .navbar ul li a:hover{
 color: green;
-border-right: 3px solid green;
+ 
 }
 /* a::before{
     top: 0;
@@ -92,15 +92,14 @@ border-right: 3px solid green;
     border-radius: .4rem;
 }
 .cal{
-    width: 80%;
+    max-width: 60%;
+    margin: 24px auto;
     height: 660px;
     background-image: url( https://lagunalawnservice.com/img/mantillo7.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
+    margin-top:10px;
     border: 3px solid #0366b6;
     position: relative;
     overflow: hidden;
