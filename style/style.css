@@ -2,43 +2,47 @@ body {
     padding: 0;
     margin: 0;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-main{
-max-width: 1800px;
-margin: 24px auto;
 
-} 
-.titulo{
+main {
+    max-width: 1800px;
+    margin: 24px auto;
+
+}
+
+.titulo {
     overflow: hidden;
     text-align: center;
     width: 100%;
     height: 160px;
     position: relative;
-    padding:0;
+    padding: 0;
     margin: 0;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 60%;
     cursor: pointer;
     background-image: url('https://mlaguna.pythonanywhere.com/static/uploads/cdf4d49c-f960-4716-96c5-e99bc31ef920.jpg');
-    
+
 }
-#titulo{
-font-size: 42px;
+
+#titulo {
+    font-size: 42px;
 }
- 
- 
-.best{
+
+
+.best {
     color: #036b;
     font-size: 24px;
     text-align: center;
 }
- 
+
 .fotos {
-    max-width:1200px;
-    margin: 24px auto; 
+    max-width: 1200px;
+    margin: 24px auto;
     background-color: #fff;
     margin-top: 60px;
     text-align: center;
@@ -46,33 +50,32 @@ font-size: 42px;
     gap: 15px;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
-.fotos img{
+
+.fotos img {
     border-radius: 0.2rem;
-     width: 100%;
-     height: 260px;
-     object-fit: cover;
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
 }
- 
- 
- 
-.orario p{
+
+
+
+.orario p {
     color: #003349;
     font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 16px;
 }
+
 .pie {
     margin-top: 80px;
-    width: 100%;
-    height: 200px;
+    padding: 6px;
     background-color: #003349;
     text-align: center;
 }
 
 .pie h2 {
-    
     text-align: center;
-   
     color: #04aa6b;
     font-weight: bold;
 }
