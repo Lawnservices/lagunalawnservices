@@ -21,7 +21,8 @@
             background: #fff;
             border-radius:6px;
             overflow: hidden;
-            box-shadow: 0 5px 15px #ccc
+            box-shadow: 0 5px 15px #ccc;
+            margin-bottom: 80px;
         }
 
         thead {
